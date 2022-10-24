@@ -1,3 +1,1 @@
-import flask # Import the module
-
-print(flask.__version__)
+Flask==1.1.2
