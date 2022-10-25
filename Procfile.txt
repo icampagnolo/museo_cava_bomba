@@ -1,2 +1,1 @@
-
-web: gunicorn gestione.py:app
+web: gunicorn sidswebsite.wsgi
