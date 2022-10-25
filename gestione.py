@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 
-@app.route('/')
+@app.route('/hello')
 def tipo():
          pagina ='intro.html'
          return render_template(pagina)
