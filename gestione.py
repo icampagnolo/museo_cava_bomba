@@ -40,5 +40,5 @@ def index():
                         return render_template(pagina)
 
 
-if __name__ == '__main__':
-    app.run() 
+#if __name__ == '__main__':
+#    app.run() 
