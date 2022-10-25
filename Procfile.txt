@@ -1,1 +1,1 @@
-app: app
+web: python gestione.py
