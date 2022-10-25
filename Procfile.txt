@@ -1,1 +1,1 @@
-web: gunicorn sidswebsite.wsgi
+web: python gestione.py runserver 0.0.0.0:$PORT
