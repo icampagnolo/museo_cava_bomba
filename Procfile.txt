@@ -1,1 +1,2 @@
-web: python gestione.py runserver
+
+web: gunicorn gestione.py:app
