@@ -3,7 +3,7 @@
 #20/10/2022
 #gestione webApp
 
-
+import os
 from flask import Flask,render_template,redirect, request
 import json
 
@@ -41,4 +41,5 @@ def index():
 
 
 #if __name__ == '__main__':
-#    app.run() 
+port=os.environ.get("PORT",5000)
+app.run(debug=False, host="0.0.0.0", port=port) 
