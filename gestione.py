@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def tipo():
-         pagina ='intro.html'
+         pagina ='index.html'
          return render_template(pagina)
 
 
