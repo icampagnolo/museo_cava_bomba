@@ -1,1 +1,1 @@
-web: gunicorn gestione:app
+web: gunicorn index:app
